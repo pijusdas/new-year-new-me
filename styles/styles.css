@@ -225,3 +225,45 @@ input {
 ::placeholder{
     color: antiquewhite;
 }
+/* end footer section */
+
+/* added a extra section/ my dreams */
+.extra{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.my-dream-title{
+    color: brown;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.dream-img img {
+    width: 600px;
+    height: 500px;
+}
+.extra-content{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.dreams-title{
+    font-weight: 700;
+    font-size: 45px;
+    font-style: italic;
+}
+.dream-description{
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 40px;
+    border-radius: 10px;
+    color: #737272;
+   
+    
+}
+.dream-img{
+    width: 50;
+    height: 100px;
+}
