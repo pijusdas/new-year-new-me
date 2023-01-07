@@ -8,7 +8,7 @@
 .header {
     width: 100%;
     height: 100vh;
-    background-image: url('/images/banner/banner1.png');
+    background-image: url('../images/banner/banner1.png');
     background-size: cover;
 
 
@@ -169,16 +169,27 @@ main {
 footer{
     max-width: 1140px;
     margin: 0 auto;
+    background-color: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
 }
 .future-title{
+    color: #F8F8F8;
     font-weight:700;
     font-size:45px;
 }
 .future-description{
+    color: #FFFFFF;
     font-weight:400;
     font-size:20px;
 }
 .subs-title{
+    color: #F8F8F8;
     font-weight:600;
     font-size:30px
+    
 }
+
