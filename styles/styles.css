@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* added a header background image */
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/banner/banner1.png');
+    background-size: cover;
+
+
+
+
+
+
+}
+
+
+/* banner styles */
+.banner {
+    margin: 0 200px;
+    text-align: right;
+    align-items: center;
+
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 50px;
+
+
+}
+
+.btn {
+    color: #FFFFFF;
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* section one styles start */
+
+.main-section-one {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.text-one {
+    margin-top: 250px;
+    margin-left: 87px;
+
+}
+
+.section-one-title {
+    font-weight: 700;
+    font-size: 40px;
+
+
+}
+
+.section-one-description {
+    font-weight: 400;
+    font-size: 18px;
+    olor: #444343;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+/* end section one */
+
+/* my plane section start */
+
+.plans {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.my-plans {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plans-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+/* end my plan section */
+
+/* start a linear section */
+.linear-main {
+    background-image: url("../images/watch.png");
+    width: 1140px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.linear-section {
+    background-image: url("../images/gradient2.png");
+    width: 1140px;
+    height: 300px;
+
+}
+
+.linear-content{
+    margin: 60px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.linear-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 30px;
+
+}
+
+/* button styles */
+.linear-btn {
+    color: #F15B22;
+    width: 160.7px;
+    height: 70.77px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight:600;
+    font-size:25px;
+    margin-top: 35px;
+    border: 0;
+}
+/* end linear section */
+
+/* start footer section */
+footer{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.future-title{
+    font-weight:700;
+    font-size:45px;
+}
+.future-description{
+    font-weight:400;
+    font-size:20px;
+}
+.subs-title{
+    font-weight:600;
+    font-size:30px
+}
